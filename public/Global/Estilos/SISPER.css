@@ -1,0 +1,356 @@
+.NombreRpt /*Nombre del Reporte*/
+{
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: none;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.NombreRptD /*Nombre del Reporte desplegar en mayúsculas*/
+{
+	font-weight: bold;
+	font-size: 11pt;
+	text-transform: none;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Sección de Encabezado del Reporte */
+.ETitulo /*Titulo para la seccion del Encabezado [Opcional] */
+{
+	font-weight: bold;
+    font-size: 11pt;
+    text-transform: none;
+    color: #16439F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ECampo /*Nombre del Campo */
+{
+	font-weight: bold;
+	font-size: 10pt;
+	text-transform: none;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #EBF7FF;
+}
+
+.EValor /*Valor del Campo*/
+{
+	font-weight: normal;
+	font-size: 10pt;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+
+/*Contenido del Reporte*/
+
+/*Tablas, Grids*/
+
+.lblNoRegs
+{
+	font-weight: bold;
+    font-size: 8pt;
+    color: #16439F;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.ETabla /*Encabezado de la Tabla*/
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #16439F;
+}
+
+.ETabla A:link{color: #ffffff;text-decoration: none}
+.ETabla A:hover{color: #ffffff;text-decoration: underline;}
+.ETabla A:visited{color: #ffffff;text-decoration: none;}
+
+
+.TablaNon /*Fila Non*/
+{
+	font-size: 9pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+.TablaNon A:visited{color:#16439f;text-decoration: none;}
+.TablaNon A:active {color:#191ac5;text-decoration:none;}
+.TablaNon A:link{color:#16439f;text-decoration: none;}
+.TablaNon A:hover{color:#191ac5;text-decoration: underline;}
+
+
+.TablaPar /*Fila Par*/
+{
+	font-size: 9pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #EBF7FF;
+}
+.TablaPar A:visited{color:#16439f;text-decoration: none;}
+.TablaPar A:active {color:#191ac5;text-decoration:none;}
+.TablaPar A:link{color:#16439f;text-decoration: none;}
+.TablaPar A:hover{color: #191ac5;text-decoration: underline;}
+
+
+.PTabla
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #16439f;
+}
+
+.Pager
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #64bd61;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	text-align: right;
+	text-decoration: none;
+}
+.Pager A:visited{color:#16439f;text-decoration: none;}
+.Pager A:link{color:#16439f;text-decoration: none;}
+.Pager A:hover{color:#191ac5}
+
+
+.Borde /*Contorno de grids*/
+{
+	border-right: #16439f 1px solid;
+	border-top: #16439f 1px solid;
+	border-left: #16439f 1px solid;
+	border-bottom: #16439f 1px solid;
+}
+
+.Campo /*Etiqueta*/
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.CLiga
+{
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: hand;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ebf7ff;
+	text-decoration: underline;
+}
+
+.Valor /*Corresponde a la Etiqueta*/
+{
+	font-weight: normal;
+	font-size: 10pt;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.Valor9 /*Corresponde a Etiquetas Pequeñas */
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.Despliegue /*Despliegue de inf. en mayusculas*/
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.DespliegueJ
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.CValidacion
+{
+	font-weight: normal;
+	font-size: 12pt;
+	color: #ff0000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	text-decoration: none;
+}
+
+.Validacion
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10pt;
+	color: blue;
+	text-decoration: none;
+}
+
+.Modal
+{
+	font-weight: normal;
+	font-size: 11pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.Mensaje
+{
+	font-weight: normal;
+	font-size: 11pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	text-decoration: none;
+}
+.Mensaje A:link{color:#16439f;text-decoration: none;}
+.Mensaje A:visited{color:#16439f;text-decoration: none;}
+.Mensaje A:hover{color: #191ac5;text-decoration: underline;}
+
+
+.Bienvenida /*Utilizado en la pantalla de inicio de cada perfil*/
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: #0052bc;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.BNombre
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: #8ac960;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	text-decoration: none;
+}
+
+.Nombre
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #16439F;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	text-decoration: none;
+}
+.TxtTabs
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.TxtTabs A:visited{color:#16439f}
+.TxtTabs A:link{color:#16439f}
+.TxtTabs A:hover{color:#191ac5}
+
+
+.TxtN4 { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #16439f;
+	text-decoration: none;
+}
+
+.Navega
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: #85b485;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navega A:hover{color:#85b485}
+.Navega A:link{color:#85b485}
+.Navega A:visited{color:#85b485}
+
+.ELogin /*Logeo*/
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.TInfo
+{
+	font-weight: bold;
+	list-style-position: inside;
+	font-size: 10pt;
+	color: #203d99;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: circle;
+	text-align: justify;
+}
+
+.SInfo
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #16439f;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ebf7ff;
+	text-decoration: none;
+}
+
+.CInfo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #203d99;
+	list-style-type: circle;
+	font-weight: normal;
+	list-style-position: inside;
+	text-align: justify;
+
+}
+.CInfo A:link{color: #203D99;font-weight: bold;}
+.CInfo A:hover{color: #191ac5}
+.CInfo A:visited{color: #203D99}
+
+.ToolTip {
+    position: absolute;
+    font-size: 11pt;
+    color: #16439F;
+    background: #EBF7FF;
+    margin: 0px;
+    display: none;
+    border-right: #16439f 1px solid;
+    border-top: #16439f 1px solid;
+    border-left: #16439f 1px solid;
+    border-bottom: #16439f 1px solid;
+}
+
+.CursorPointer
+{
+	cursor: pointer;
+}
